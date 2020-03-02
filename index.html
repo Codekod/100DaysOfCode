@@ -2,61 +2,32 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" media="screen" href="style.css">
-    <title>Melih's Tribute Page!</title>
+    <title>Build a Survey Form</title>
 </head>
 <body>
-<div id="container">
-    <div id="header">
-        <div id="main">
-            <div id="title">  <h1>MELİH EKEN @ 100 DAYS OF CODE </h1>
-                Hayatı yaşanır kılan, hayaller ve onu rengarenk gök kuşağına dönüştüren kalbinizdeki insanın varlığıdır.</div>
-        </div>
-    </div>
-
-    <div id="content">
-        <div id="intro">
-
-            <div id="img-div"><figure id="img-caption"> <img src="https://i.imgyukle.com/2020/02/17/ncarJy.jpg" alt="calismak" id="image"> <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> </figure></div>
-            <div class="tribute-info"><h4>Hayatında olup biten şeylerin, dilediğin şekilde olmasını isteme: nasıl oluyorlarsa, öyle olmalarını iste. Böylece her zaman mutlu olursun.</h4>
-                <strong>Epiktetos</strong></div>
+<div class="container">
+<header class="header">
+<h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+    <p id="description" class="description text-center">
+        Thank you for taking the time to help us improve the platform
+    </p>
+</header>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
 
         </div>
-        <div id="article"><h2 id="baslik">İŞTE MELİH EKEN'İN HAYATI</h2>
-            </p>
-            <ul>
-                <li><strong>1978</strong> - Karabük SSK Hastanesin'de doğdum...</li>
-                <li><strong>1985</strong> - T.E.D Karabük Kolleji 1.Sınıfa Başladım...</li>
-                <li><strong>1990</strong> - T.E.D Karabük Kolleji Ortaokula Başladım...</li>
-                <li><strong>1994</strong> - Karabük Demir-Çelik Lisesine Başladım...</li>
-                <li><strong>1998</strong> - Manisa Celal Bayar Üniversitesi Harita-Kadastro Bölümünü kazandım...</li>
-                <li><strong>2000</strong> - Manisa Celal Bayar Üniversitesi Harita-Kadastro Bölümünü bitidirdim...</li>
-                <li><strong>2001</strong> - Askerliğimi yapmak üzere EDOK Eğitim ve Doktrin Komutanlığı Ankara'ya geldim...</li>
-                <li><strong>2003</strong> - Askerliğimi bitirip memlekete döndüm...</li>
-                <li><strong>2004</strong> - Ailecek Karabük'ten göçüp ANKARA'ya Batıkent'e yerleştik...</li>
-                <li><strong>2005</strong> - Areta Bilgisayarda çalışmaya başladım...</li>
-                <li><strong>2006</strong> - Ankara Altındağ 1. Noterliğinde Veznedar olarak işe başladım</li>
-                <li><strong>2012</strong> - Evlendim ....</li>
-                <li><strong>2013</strong> - Dünyalar güzeli kızım dünyaya geldi...</li>
-                <li><strong>2019</strong> - Kızım ilkokula Başladı...</li>
-            </ul>
-            <div id="tribute-info"><p><cite> Hayat iki şekilde yaşanır:
-                Ya hiç mucize yokmuş gibi ya da her şey birer mucizeymiş gibi. <br>
-                ---Albert Einstein</p></cite>
-                <p>Hayat hikayemin devamını okumak ve ilham almak istiyorsanız size <a href="www.meliheken.com.tr" id="tribute-link" target="_blank"> Web sitemi ziyaret edin </a></p>
-            </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+
         </div>
-    </div>
-    <div id="footer"><br>Copyright 2020@meliheken</div>
+
+
+    </form>
+
 </div>
-
-
-
-
-
-<div/>
 
 </body>
 </html>
