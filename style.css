@@ -1,0 +1,59 @@
+#container {
+    display: grid;
+    grid-template-areas:
+            "header"
+            "content"
+            "footer";
+    height: 1500px;
+    grid-template-rows: 100px 1fr 100px;
+
+}
+#title {
+
+}
+#header {
+    grid-area: header;
+    background-color: #607D8B;
+}
+#content {
+    grid-area: content;
+    display: grid;
+    grid-templates-rows: 2fr 8fr;
+    background-color: #FFE0B2;
+    margin-top: 30px;
+}
+#footer {
+    grid-area: footer;
+
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.tribute-info {
+    text-align: center;
+}
+#title {
+    text-align: center;
+    font-family: Helvetica;
+}
+#baslik {
+    text-align: center;
+}
+tribute-info {
+    text-align: center;
+    font-family: Times New Roman;
+}
+#footer {
+    text-align: center;
+    font-family: Arial Narrow;
+    background-color: #BCAAA4;
+}
+#tribute-link {
+    font-family: Candara;
+
+}
+
